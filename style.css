@@ -84,6 +84,11 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
+.media-icons a {
+  color: #4070f4; /* Color of the icons */
+  font-size: 18px; /* Adjust size as needed */
+  margin: 0 6px; /* Adjust spacing as needed */
+}
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
@@ -176,9 +181,63 @@ color: #F0F8FF;
   color: #4070f4;
 }
 
+.project {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-image {
+  flex: 1;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Add this CSS to center the buttons */
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+.center-button button {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
+
+ .about-details .education {
+  margin-top: 20px;
+}
+
+.edu-item {
+  margin-bottom: 20px;
+}
+
+.edu-title {
+  font-weight: bold;
+}
+
+.edu-institution {
+  font-style: italic;
+  color: #6e93f7; /* Adjust color as needed */
+}
+
+.edu-score,
+.edu-year {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
 section{
   padding-top: 40px;
 }
@@ -375,6 +434,28 @@ section .button button:hover{
   text-align: center;
   margin: auto;
 }
+.button {
+  text-align: center;
+}
+.button button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #4070f4;
+  color: #fff; /* Set default text color to white */
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.button button:hover {
+  background-color: #fff;
+  color: #4070f4;
+  border-color: #4070f4;
+}
+
 
 /* Footer CSS */
 footer{
