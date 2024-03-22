@@ -45,5 +45,5 @@ for (var i = 0; i < navLinks.length; i++) {
 }
 
 document.getElementById("downloadResumeBtn").addEventListener("click", function() {
-  window.open("AryanSagar.pdf", "_blank");
+  window.open("Aryan BAlwant Sagar.pdf", "_blank");
 });
