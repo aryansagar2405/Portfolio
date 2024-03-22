@@ -23,18 +23,23 @@
       <ul class="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Web Dev Skills</a></li>
+        <li><a href="#skills">Web Dev</a></li>
         <li><a href="#services">Other Skills</a></li>
+        <li><a href="#projects">Projects</a></li> <!-- New section added -->
         <li><a href="#contact">Contact</a></li>
         <div class="cancel-btn">
           <i class="fas fa-times"></i>
         </div>
       </ul>
       <div class="media-icons">
-        <a href="https://instagram.com/aryansagrr"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/aryansagrr"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/aryansagrr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/aryan-sagar-a73634241/" class="fab fa-linkedin"></a>
+        <!-- Replace the href="#" with your LinkedIn profile link -->
+        <a href="https://instagram.com/aryansagrr" class="fab fa-instagram"></a>
+        <!-- Keep or remove Instagram icon as needed -->
+        <a href="https://instagram.com/aryansagrr" class="fab fa-twitter"></a>
+        <!-- Keep or remove Twitter icon as needed -->
       </div>
+
     </div>
     <div class="menu-btn">
       <i class="fas fa-bars"></i>
@@ -45,11 +50,11 @@
       <div class="text">
         <div class="text-one">Hello,</div>
         <div class="text-two">I'm Aryan Sagar</div>
-        <div class="text-three">Web Developer</div>
+        <div class="text-three">Computer Science Student</div>
         <div class="text-four">From INDIA</div>
 
         <div class="button">
-          <button>Hire Me</button>
+          <button><a href="#contact">Hire Me</a></button>
         </div>
       </div>
 
@@ -61,29 +66,45 @@
 
   </section>
 
-
   <section class="about" id="about">
     <div class="content">
       <div class="title"><span>About Me</span></div>
       <div class="about-details">
         <div class="left">
           <img src="5.gif" alt="" />
+          <div class="button">
+            <button id="downloadResumeBtn">Download Resume</button>
+          </div>
         </div>
         <div class="right">
           <div class="topic">Designing Is My Passion</div>
           <p>
             Hardworking, dedicated student anticipating graduation in 2025 from Walchand College of Engineering, Sangli.
-            proven leadership & organizational skill, passionate to enhance technical and professional skills to achieve
-            goals of
-            organization. Detail-oriented team player with strong organizational skills. Ability to handle multiple
-            projects
-            simultaneously with a high degree of accuracy. Organized and dependable candidate successful at managing
-            multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team
-            goals.
-
+            Proven leadership & organizational skills, passionate to enhance technical and professional skills to
+            achieve goals of the organization. Detail-oriented team player with strong organizational skills. Ability to
+            handle multiple projects simultaneously with a high degree of accuracy. Organized and dependable candidate
+            successful at managing multiple priorities with a positive attitude. Willingness to take on added
+            responsibilities to meet team goals.
           </p>
-          <div class="button">
-            <button><a href="https://www.gnu.org/s/hello/manual/hello.pdf" download>Download Resume</a></button>
+          <div class="education">
+            <div class="edu-item">
+              <div class="edu-title">B.Tech. (Computer Science)</div>
+              <div class="edu-institution">Walchand College of Engineering, Sangli</div>
+              <div class="edu-score">7.33/10</div>
+              <div class="edu-year">2021-2025</div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-title">HSC</div>
+              <div class="edu-institution">Shri Balaji College of Science, Ichalkaranji</div>
+              <div class="edu-score">96%</div>
+              <div class="edu-year">2019-2021</div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-title">SSC</div>
+              <div class="edu-institution">Adarsh Shikshan Mandir, Miraj</div>
+              <div class="edu-score">80.80%</div>
+              <div class="edu-year">2009-2019</div>
+            </div>
           </div>
         </div>
       </div>
@@ -93,7 +114,7 @@
 
   <section class="skills" id="skills">
     <div class="content">
-      <div class="title"><span>Web Dev Skills</span></div>
+      <div class="title"><span>Web Development</span></div>
       <div class="skills-details">
         <div class="text">
           <div class="topic">Skills Reflects Our Knowledge</div>
@@ -104,10 +125,10 @@
             concepts. I am adept at troubleshooting and debugging code, and I consistently stay updated with the latest
             web development trends and best practices to deliver high-quality, modern web solutions.</p>
           <div class="experience">
-            <div class="num">2</div>
+            <div class="num"></div>
             <div class="exp">
-              Years Of <br />
-              Experience
+              <br />
+
             </div>
           </div>
         </div>
@@ -133,7 +154,6 @@
     </div>
   </section>
 
-
   <section class="services" id="services">
     <div class="content">
       <div class="title"><span>Other Skills</span></div>
@@ -143,54 +163,138 @@
             <i class="fas fa-desktop"></i>
           </div>
           <div class="topic">C Programming</div>
-          <p> I have successfully completed projects that demonstrate my proficiency in C, highlighting my commitment to
-            producing high-quality, performance-driven software applications. </p>
+          <p>I have successfully completed projects that demonstrate my proficiency in C, highlighting my commitment to
+            producing high-quality, performance-driven software applications.</p>
         </div>
         <div class="box">
           <div class="icon">
-            <i class="fas fa-paint-brush"></i>
+            <i class="fas fa-code"></i>
           </div>
           <div class="topic">C++ Programming</div>
-          <p>My resume showcases a strong proficiency in C++ programming, reflecting my capacity to create robust and
-            efficient software solutions.</p>
+          <p>Skilled in C++ programming, with experience in developing efficient and scalable software solutions using
+            object-oriented principles.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="topic">JavaScript</div>
+          <p>Proficient in JavaScript, with a solid understanding of front-end and back-end web development. Experienced
+            in building interactive and dynamic web applications.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="topic">Swift</div>
+          <p>Proficient in Swift programming language, with experience in iOS and macOS app development. Skilled in
+            building native applications for Apple platforms.</p>
         </div>
         <div class="box">
           <div class="icon">
             <i class="fas fa-chart-line"></i>
           </div>
-          <div class="topic">Python Programming</div>
-          <p>I possess strong Python programming skills, underpinned by a robust foundation in the language's core
-            concepts and libraries. I have applied Python in various projects, demonstrating my ability to develop
-            efficient and scalable solutions.</p>
+          <div class="topic">Data Structures and Algorithm</div>
+          <p>Proficient in data structures and algorithms, with a strong understanding of fundamental concepts and
+            problem-solving techniques.</p>
         </div>
         <div class="box">
           <div class="icon">
-            <i class="fab fa-android"></i>
+            <i class="fas fa-laptop-code"></i>
           </div>
-          <div class="topic">Java Programming</div>
-          <p>I possess strong Java programming skills with a solid foundation in object-oriented programming principles.
-          </p>
+          <div class="topic">Operating System</div>
+          <p>Familiar with various operating systems including Windows, Linux, and MacOS. Proficient in system
+            administration tasks and troubleshooting.</p>
         </div>
         <div class="box">
           <div class="icon">
-            <i class="fas fa-camera-retro"></i>
+            <i class="fas fa-microchip"></i>
           </div>
-          <div class="topic">Photography</div>
-          <p> I excel in various photography genres, including portrait, landscape, and event photography, and I am
-            adept at post-processing to enhance the quality and aesthetics of my work.</p>
+          <div class="topic">Simulation Tools: Proteus</div>
+          <p>Experience in using Proteus for circuit design, simulation, and PCB layout.</p>
         </div>
         <div class="box">
           <div class="icon">
-            <i class="fas fa-tablet-alt"></i>
+            <i class="fas fa-tools"></i>
           </div>
-          <div class="topic">Apps Devlopment</div>
-          <p>Experience with object-oriented programming, data structures, and algorithms
-            Excellent problem-solving and debugging skills
-            Ability to work independently and as part of a team</p>
+          <div class="topic">Tools: Microsoft Office, Word</div>
+          <p>Proficient in Microsoft Office Suite, including Word, Excel, and PowerPoint. Skilled in document creation,
+            editing, and formatting.</p>
         </div>
       </div>
     </div>
   </section>
+
+
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title"><span>Projects</span></div>
+      <div class="project-details">
+        <!-- Project 1 -->
+        <div class="project">
+          <div class="project-content">
+            <div class="topic">Temperature & Motion Sensing Smart Fan</div>
+            <p>Developed a cutting-edge smart fan system integrating IoT technology and sensors for dynamic fan speed
+              adjustments based on real-time environmental data. Implemented automatic power management features based
+              on human presence, contributing to significant energy conservation and enhanced user comfort.</p>
+            <div class="button center-button">
+              <button><a href="synopsis_temperature_motion.pdf" download>Download Synopsis</a></button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="project1.jpg" alt="Project 1">
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+          <div class="project-content">
+            <div class="topic">Chicken Disease Detection using Deep Learning</div>
+            <p>Designed and implemented a Chicken Disease Identification System utilizing Convolutional Neural Networks
+              (CNN) and deep learning techniques. This system accurately detects diseases like Newcastle disease,
+              coccidiosis, and salmonellosis through analysis of fecal images of chickens, aiding in timely intervention
+              and improved poultry health management.</p>
+            <div class="button center-button">
+              <button><a href="synopsis_chicken_disease.pdf" download>Download Synopsis</a></button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="project2.jpg" alt="Project 2">
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project">
+          <div class="project-content">
+            <div class="topic">Library Management System</div>
+            <p>Developed a comprehensive Library Management System using Java programming, including features for book
+              issuing, return, and management. Implemented a user-friendly graphical user interface (GUI) for seamless
+              navigation and efficient library operations.</p>
+            <div class="button center-button">
+              <button><a href="synopsis_library_management.pdf" download>Download Synopsis</a></button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="project4.avif" alt="Project 3">
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project">
+          <div class="project-content">
+            <div class="topic">Gym Website</div>
+            <p>Developed a dynamic website for a gym facility, providing features for client login, progress tracking,
+              and service inquiries. Integrated online scheduling and booking functionalities for membership management
+              and enhanced user experience.</p>
+            <div class="button center-button">
+              <button><a href="synopsis_gym_website.pdf" download>Download Synopsis</a></button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="project3.avif" alt="Project 4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
   <section class="contact" id="contact">
@@ -208,12 +312,13 @@
     </div>
   </section>
 
-
   <footer>
     <div class="text">
-      <span>Thank you....<a href="#">.</a> | &#169; 2023 All Rights Reserved</span>
+      <span>Let's connect and build something amazing together! Reach out to me at <a
+          href="mailto:aryanabs00@gmail.com">aryanabs00@gmail.com</a></span>
     </div>
   </footer>
+
 
   <script src="script.js"></script>
 </body>
