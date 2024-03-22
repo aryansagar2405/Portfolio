@@ -43,3 +43,7 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+document.getElementById("downloadResumeBtn").addEventListener("click", function() {
+  window.open("AryanSagar.pdf", "_blank");
+});
