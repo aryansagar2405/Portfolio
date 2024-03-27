@@ -599,3 +599,118 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
+
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 768px) {
+  /* Adjust navbar */
+  nav .navbar {
+    width: 100%;
+  }
+  
+  /* Adjust font sizes for smaller screens */
+  nav .navbar .logo a {
+    font-size: 25px;
+  }
+  
+  nav .navbar .menu li {
+    margin: 0 5px;
+  }
+  
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    right: 20px;
+  }
+  
+  /* Adjust home section */
+  .home .text-one {
+    font-size: 20px;
+  }
+  
+  .home .text-two {
+    font-size: 40px;
+  }
+  
+  .home .text-three {
+    font-size: 25px;
+  }
+  
+  .right img {
+    height: 300px;
+    width: 320px;
+  }
+  
+  .home .button button {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+  
+  /* Adjust about section */
+  section .about .about-details .left img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  section .title span {
+    font-size: 25px;
+  }
+  
+  section .about .about-details .right {
+    width: 100%;
+  }
+  
+  section .about .about-details .right p {
+    font-size: 16px;
+  }
+  
+  section .button button {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+  
+  /* Adjust skills section */
+  .skills .skills-details .text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .skills-details .experience .num {
+    font-size: 60px;
+  }
+  
+  .skills-details .experience .exp {
+    font-size: 14px;
+  }
+  
+  .skills-details .boxes .topic {
+    font-size: 18px;
+  }
+  
+  .skills-details .boxes .per {
+    font-size: 40px;
+  }
+  
+  /* Adjust services section */
+  .services .boxes .box {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .services .boxes .box .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  
+  /* Adjust contact section */
+  .contact .text {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Adjust footer */
+  footer .text span {
+    font-size: 14px;
+  }
+}
