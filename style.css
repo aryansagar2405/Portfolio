@@ -708,6 +708,121 @@ footer .text span a:hover{
     width: 90%;
     margin: auto;
   }
+
+
+  /* Responsive Media Queries for OnePlus Nord 2 */
+@media only screen and (max-width: 1080px) {
+  /* Adjust navbar */
+  nav .navbar {
+    width: 100%;
+  }
+  
+  nav .navbar .logo a {
+    font-size: 20px;
+  }
+  
+  nav .navbar .menu li {
+    margin: 0 5px;
+  }
+  
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    right: 20px;
+  }
+  
+  /* Adjust home section */
+  .home .text-one {
+    font-size: 18px;
+  }
+  
+  .home .text-two {
+    font-size: 30px;
+  }
+  
+  .home .text-three {
+    font-size: 20px;
+  }
+  
+  .right img {
+    height: 200px;
+    width: 220px;
+  }
+  
+  .home .button button {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  
+  /* Adjust about section */
+  section .about .about-details .left img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  section .title span {
+    font-size: 20px;
+  }
+  
+  section .about .about-details .right {
+    width: 100%;
+  }
+  
+  section .about .about-details .right p {
+    font-size: 14px;
+  }
+  
+  section .button button {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  
+  /* Adjust skills section */
+  .skills .skills-details .text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .skills-details .experience .num {
+    font-size: 40px;
+  }
+  
+  .skills-details .experience .exp {
+    font-size: 12px;
+  }
+  
+  .skills-details .boxes .topic {
+    font-size: 16px;
+  }
+  
+  .skills-details .boxes .per {
+    font-size: 30px;
+  }
+  
+  /* Adjust services section */
+  .services .boxes .box {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .services .boxes .box .icon {
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  
+  /* Adjust contact section */
+  .contact .text {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Adjust footer */
+  footer .text span {
+    font-size: 12px;
+  }
+}
+
   
   /* Adjust footer */
   footer .text span {
